@@ -39,7 +39,7 @@
             	</div>
    		</form>
 		<br>
-<!-- este es el de prueba -->   
+<!-- ================ Tercer cuadro  ================ -->   
 		<br>
 		<br>
 		<br>
@@ -47,13 +47,13 @@
 	<div class="row">
 		<div class="col-md-2">
 		<form class="form-horizontal" >
-  			<label  class="col-lg-1 control-label"><font face="arial" text-aling="right">Procedencia:</label></font>
+  			<label  class="col-lg-1 control-label"><font face="arial" text-aling="right" size="4">Procedencia:</label></font>
 			</div>
     			<div class="col-md-4">
-      				<input  class="form-control" id="NombreIngreso"
+      				<input  class="form-control" id="Procedencia"
             		 placeholder="Ingresar Procedencia">
             	</div>
-<!-- El segundo cuadro de texto -->			
+<!--  ==========El cuarto cuadro ======= -->			
 				<div class="col-md-1">
               		<label  class="col-lg-1 control-label"><font face="arial" size="4" >Telefono:</label></font>
 				</div>
@@ -62,21 +62,97 @@
             			 placeholder="Ingresar Numero de Telefono">
             	</div>
    		</form>		
+		<br>
+		<br>
+<!--======================== Quinto cuadro de los select=============== -->	
+		<br>
+		<br>	
+		<div class="container">
+			<div class="row">
+				
+  				<label  class="col-lg-3 control-label"><font face="arial" size="3" >Fecha de Nacimineto:</label></font>
+			
+				<label class="col-lg-1">
+				<select class="form-control" id="FechaDia"></select></label>
+				<label class="col-lg-1"><select class="form-control" id="FechaMes" ></select></label>
+
+				<label class="col-lg-1"><select class="form-control" id="FechaAño"></select></label>
+				
+				<label  class="col-lg-1 control-label"><font face="arial" ></label></font>
+				
+				<label  class="col-lg-1 control-label"><font face="arial" >Categoria:</label></font>
+				
+				<label class="col-lg-2"><select class="form-control" id="Categoria"></select></label>
+
+			</div>
+<!-- ======================Sexto cuadro de checkbox================ ============-->
+				<br>
+				<br>
+				<div class="container">
+						<div class="row">
+							<label class="col-lg-1 control label-"><font face="arial" size="4">Sexo</font></label>
+
+						<label class="col-lg-3"><select class="form-control" id="Genero"></select></label>	
+						
+						<label class="checkbox-inline"  >
+  							<input type="checkbox" id="BoxElite" value="opcion_1"> Elite
+						</label>
+
+
+						<label class="col-lg-4 control label-"><font ></font></label>
 
 
 
 
+						<label class="checkbox-inline">
+  							<input type="checkbox" id="BoxNormal" value="opcion_2"> Normal
+						</label>
+					</div>	
 
+<!-- =============================Esto es del boton ====================-->
+							<div class="container">
+							<br>
+							<br>
+							<br>
+					<center>		
+						<a href="#ventanas" class="btn btn-info btn.lg"data-toggle="modal" id="btnGuardado" title="Guardar"><font face="arial" size="5">GUARDADO</a></font> 
+						<div class="modal fade" id="ventanas">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal- header">	
+									<button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+											<div class="container">
+												<center>
+												<h1 class="modal-title"></h1>
+												</center>								
+						</div>
+					</div>
+<!-- contenido de la ventana ==========================================================-->								<div class="modal-body">
+								<center>
+									<br>	
+									<br>
+									<font face="arial" size="12"><p>"Gracias por Inscribirse"</p></font>
+								</center>	
+							</div>
+<!-- ================== Footer de la ventana =======================================-->											<div class="modal-footer">
+							<button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+							<button type="button" class="btn btn-success">Guardar Cambios</button>
 
+					</center>
 
+						</div>
+				</div>		
+			</div>
+		</div>
 
-
-
-
-
-
-
-
+		<br>
+		<br>						
+		<br>			
+		<footer>
+			<center>
+				<font face="comic ms" size="4"><p>(C) UNIVERSIDAD MARIANO GALVEZ</p></font>	
+			</center>		
+		</footer>
 
 	<!-- this is the link to download the jquery -->
 	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
