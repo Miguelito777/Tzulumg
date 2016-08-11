@@ -9,15 +9,14 @@
 	<link rel="stylesheet" href="js/jquery-3.1.0.min">
 </head>
 <body>
-
+	
 	<center>	
  		<font face="comic ms"><h1>REPORTE DE PARTICIPANTES DE LA MEDIO MARATON INTERNACIONAL</h1></font> 
 	</center>
 	<center>
 		<font face="comic ms"><h1>"ATANACIO TZUL"<h1></font>
 	</center>
-	<br>
-	<br>
+	
 <!-- primer cuadro de texto -->
 <div class="container">
 	<div class="row">
@@ -94,9 +93,12 @@
 
 						<label class="col-lg-3"><select class="form-control" id="Genero"></select></label>	
 						
-						<label class="checkbox-inline"  >
-  							<input type="checkbox" id="BoxElite" value="opcion_1"> Elite
-						</label>
+						<div class="radio-inline">
+  							<label>
+    							<input type="radio" name="opciones" id="opciones_1" value="opcion_1" checked>
+   											 Elite
+  							</label>
+						</div>
 
 
 						<label class="col-lg-4 control label-"><font ></font></label>
@@ -104,10 +106,13 @@
 
 
 
-						<label class="checkbox-inline">
-  							<input type="checkbox" id="BoxNormal" value="opcion_2"> Normal
-						</label>
-					</div>	
+					<div class="radio-inline">
+  						<label>
+    						<input type="radio" name="opciones" id="opciones_2" value="opcion_2">Normal
+  						</label>
+					</div>
+
+
 
 <!-- =============================Esto es del boton ====================-->
 							<div class="container">
@@ -115,44 +120,46 @@
 							<br>
 							<br>
 					<center>		
-						<a href="#ventanas" class="btn btn-info btn.lg"data-toggle="modal" id="btnGuardado" title="Guardar"><font face="arial" size="5">GUARDADO</a></font> 
-						<div class="modal fade" id="ventanas">
-						<div class="modal-dialog">
-							<div class="modal-content">
-								<div class="modal- header">	
-									<button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-											<div class="container">
-												<center>
-												<h1 class="modal-title"></h1>
-												</center>								
-						</div>
+						<a  class="btn btn-info btn.lg" id="btnGuardado" title="Guardar"><font face="arial" size="5">GUARDAR</a></font> 
+						<br>
+						<br>
+						<br>
+						<a  class="btn btn-success btn.lg" id="geneCodigo" title="Guardar"><font face="arial" size="4" >GENERAR CODIGO</a></font>
+
+			
 					</div>
-<!-- contenido de la ventana ==========================================================-->								<div class="modal-body">
-								<center>
-									<br>	
-									<br>
-									<font face="arial" size="12"><p>"Gracias por Inscribirse"</p></font>
-								</center>	
-							</div>
-<!-- ================== Footer de la ventana =======================================-->											<div class="modal-footer">
-							<button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
-							<button type="button" class="btn btn-success">Guardar Cambios</button>
 
-					</center>
-
-						</div>
+<!-- ================== Footer de la ventana =======================================-->								
 				</div>		
 			</div>
 		</div>
 
 		<br>
-		<br>						
-		<br>			
+		<br>									
 		<footer>
 			<center>
 				<font face="comic ms" size="4"><p>(C) UNIVERSIDAD MARIANO GALVEZ</p></font>	
 			</center>		
 		</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	<!-- this is the link to download the jquery -->
 	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
